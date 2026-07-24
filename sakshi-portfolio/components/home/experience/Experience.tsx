@@ -98,6 +98,7 @@ export default function Experience() {
                 key={experience.id}
                 experience={experience}
                 side={index % 2 === 0 ? 'left' : 'right'}
+                index={index}
               />
             ))}
           </div>
