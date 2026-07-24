@@ -59,7 +59,7 @@ export default function Experience() {
         <div ref={timelineRef} className='relative'>
           {/* ONE CONTINUOUS LINE */}
 
-          <div className='absolute left-1/2 top-0 bottom-0 w-[3px] -translate-x-1/2 rounded-full bg-gradient-to-b from-violet-500 via-fuchsia-500 to-cyan-400' />
+          <div className='absolute bottom-0 left-5 top-0 w-[3px] rounded-full bg-gradient-to-b from-violet-500 via-fuchsia-500 to-cyan-400 md:left-1/2 md:-translate-x-1/2' />
 
           {/* Plane */}
 
@@ -67,12 +67,7 @@ export default function Experience() {
             style={{
               top: planeY,
             }}
-            className='
-  absolute
-  left-1/2
-  z-40
-  -translate-x-1/2
-  '
+            className='absolute left-5 z-40 -translate-x-1/2 md:left-1/2'
           >
             <div
               className='
